@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GifOS.</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/crearGifo.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,6 +15,7 @@
 <body>
     <div class="navegator">
         <a id="logo" href="index.html"><img src="../assets/logo-desktop.svg" alt="Logo"></a>
+
         <input type="checkbox" id="menu-checkbox" class="menu-checkbox hidden">
         <label for="menu-checkbox" class="label">
             <span class="hamburguesa"></span>
@@ -29,59 +29,49 @@
 
         </label>
 
-
-
     </div>
 
-    <div id="mid-cam-container" class="mid-cam-container">
+    <div id="midCtn" class="mid-container">
 
-        <div id="camara-container">
-            <img id="camara-luz" src="../assets/element-luz-camara.svg" alt="">
-            <img id="camara-icon" src="../assets/camara.svg" alt="">
-        </div>
-        <div id="crearGif-container">
-            <div id="video-container">
-                <video id="video-gif" autoplay>Start stream</video>
-                <div id=video-hover>
-                    <div id="estamos-container">
-                        <h2 id="estamos">Estamos subiendo tu GIFO...</h2>
-                        <img id="loader" src="../assets/loader.svg" alt="Loader">
-                    </div>
-                </div>
-            </div>
-            <h2 id="crearGif-text">Aquí podrás crear tus propios <span>GIFOS</span></h2>
-            <h3 Id="crearGif-description">¡Crea tu GIFO en sólo 3 pasos!</h3>
-            <h3 id="crearGif-description2">(sólo necesitas una cámara para grabar un video)</h3>
-            <div id="hueco1"></div>
-            <div id="hueco2"></div>
-            <div id="hueco3"></div>
-            <div id="hueco4"></div>
+
+
+        <h1 id="main-title">Inspírate, busca, guarda y crea los mejores <span id="gifos">GIFOS</span></h1>
+
+
+        <img id="logoIlustra" src="../assets/ilustra_header.svg" alt="Header Ilustration">
+        <div id="input-container" class="input">
+            <input id='inputText' class="input-text" type="text" placeholder="Busca GIFOS y más.">
+            <img id="iconSearch" src="../assets/icon-search.svg" alt="Icon Search">
+            <img id="iconClose" src="../assets/close.svg" alt="Close Icon">
+            <div id="suggestions"></div>
         </div>
 
+        
 
-
-        <img id="pelicula-gif" src="../assets/pelicula.svg" alt="Pelicula Icon">
-
-        <div id="paso-a-paso">
-            <span id="uno">1</span>
-            <span id="dos">2</span>
-            <span id="tres">3</span>
         </div>
 
-        <div id="lineaLoca"></div>
+        <div class="trending">
+            <h2>Trending:</h2>
+            <h3>Reactions, Entertainment, Sports, Stickers, Artists</h3>
+        </div>
 
-        <button id="comenzar">COMENZAR</button>
-        <button id="grabar">GRABAR</button>
-        <button id="finalizar">FINALIZAR</button>
-        <button id="subir">SUBIR GIFO</button>
-        <button id="repetir">REPETIR CAPTURA</button>
+        <div id="resultados-title">
+            <span id="h1-border"></span>
+            <h1 id="h1-title">Results</h1>
+        </div>
 
-        <div id=sw-time></div>
+        <div id="noResults">
+            <img id="noResults-img" src="../assets/icon-busqueda-sin-resultado.svg" alt="Busqueda sin resultado">
+            <h2 id="noResults-text">Intenta con otra búsqueda.</h2>
+        </div>
+        <div id="resultados">
+        </div>
         <div id="ampliarGif">
 
         </div>
 
-    </div>
+        <button id="verMas">VER MÁS</button>
+
 
 
     <div class="low-container">
@@ -93,8 +83,9 @@
 
         <div id="gifCtn">
 
-            <button id="left" class="x">
-                &lt;</button> <div id="gif-container">
+            <button id="left" class="x">&lt;</button> 
+        
+        <div id="gif-container">
 
         </div>
 
@@ -113,8 +104,7 @@
             <div class="redes">
                 <a href="https://www.facebook.com/pablito.a.correa/"><img id="facebook" src="../assets/icon_facebook.svg" alt="Facebook"></a>
                 <a href="https://twitter.com/"><img id="twitter" src="../assets/icon-twitter.svg" alt="Twitter"></a>
-                <a href="https://www.instagram.com/pablitoo.cr/"><img id="instagram" src="../assets/icon_instagram.svg"
-                        alt="Instagram"></a>
+                <a href="https://www.instagram.com/pablitoo.cr/"><img id="instagram" src="../assets/icon_instagram.svg" alt="Instagram"></a>
             </div>
         </div>
 
@@ -124,9 +114,7 @@
 
     </footer>
 
-    <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
-    <script src="../js/crearGifo.js"></script>
-
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
