@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GifOS.</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navegator">
+        <a id="logo" href="index.html"><img src="../assets/logo-desktop.svg" alt="Logo"></a>
+
+        <input type="checkbox" id="menu-checkbox" class="menu-checkbox hidden">
+        <label for="menu-checkbox" class="label">
+            <span class="hamburguesa"></span>
+            <span class="equis">X</span>
+            <span class="menu">
+                <a id="darkTheme" class="menu-item" href="#">Modo Nocturno</a>
+                <a class="menu-item" href="favoritos.html">Favoritos</a>
+                <a class="menu-item" href="misGifos.html">Mis GIFOS</a>
+                <a href="crearGifo.html" id="masButton">+</a>
+            </span>
+
+        </label>
+
+    </div>
+
+    <div id="midCtn" class="mid-container">
+
+
+
+        <h1 id="main-title">Inspírate, busca, guarda y crea los mejores <span id="gifos">GIFOS</span></h1>
+
+
+        <img id="logoIlustra" src="../assets/ilustra_header.svg" alt="Header Ilustration">
+        <div id="input-container" class="input">
+            <input id='inputText' class="input-text" type="text" placeholder="Busca GIFOS y más.">
+            <img id="iconSearch" src="../assets/icon-search.svg" alt="Icon Search">
+            <img id="iconClose" src="../assets/close.svg" alt="Close Icon">
+            <div id="suggestions"></div>
+        </div>
+
+        
+
+        </div>
+
+        <div class="trending">
+            <h2>Trending:</h2>
+            <h3>Reactions, Entertainment, Sports, Stickers, Artists</h3>
+        </div>
+
+        <div id="resultados-title">
+            <span id="h1-border"></span>
+            <h1 id="h1-title">Results</h1>
+        </div>
+
+        <div id="noResults">
+            <img id="noResults-img" src="../assets/icon-busqueda-sin-resultado.svg" alt="Busqueda sin resultado">
+            <h2 id="noResults-text">Intenta con otra búsqueda.</h2>
+        </div>
+        <div id="resultados">
+        </div>
+        <div id="ampliarGif">
+
+        </div>
+
+        <button id="verMas">VER MÁS</button>
+
+
+
+    <div class="low-container">
+
+        <div id="trending">
+            <h1 id="trendingGifos">Trending GIFOS</h1>
+            <h3 id="miraGIfos">Mira los últimos GIFOS de nuestra comunidad.</h3>
+        </div>
+
+        <div id="gifCtn">
+
+            <button id="left" class="x">&lt;</button> 
+        
+        <div id="gif-container">
+
+        </div>
+
+        <button id="right" class="x">></button>
+
+    </div>
+
+    </div>
+
+    <footer>
+
+
+        <div class="share">
+            <h3>Compartir en:</h3>
+
+            <div class="redes">
+                <a href="https://www.facebook.com/pablito.a.correa/"><img id="facebook" src="../assets/icon_facebook.svg" alt="Facebook"></a>
+                <a href="https://twitter.com/"><img id="twitter" src="../assets/icon-twitter.svg" alt="Twitter"></a>
+                <a href="https://www.instagram.com/pablitoo.cr/"><img id="instagram" src="../assets/icon_instagram.svg" alt="Instagram"></a>
+            </div>
+        </div>
+
+
+
+        <p>© GIFOS 2020 All Rights Reserved</p>
+
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

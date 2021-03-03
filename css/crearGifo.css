@@ -1,0 +1,316 @@
+#crearGif-container{
+    width: 688px;
+    height: 390px;
+    border: 1px solid #572EE5;
+    margin: 40px auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+#mid-cam-container{
+position: relative;
+}
+#camara-container{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+#hueco1{
+    transform: rotate(
+-180deg
+);
+    border-bottom: 2px solid #50E3C2;
+    width: 25px;
+    height: 27px;
+    border-right: 2px solid #50E3C2;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+
+#hueco2{
+    transform: rotate( 
+90deg
+ );
+    border-bottom: 2px solid #50E3C2;
+    width: 25px;
+    height: 27px;
+    border-right: 2px solid #50E3C2;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+#hueco3{
+    transform: rotate( 
+0deg
+ );
+    border-bottom: 2px solid #50E3C2;
+    width: 25px;
+    height: 27px;
+    border-right: 2px solid #50E3C2;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+#hueco4{
+    transform: rotate( 
+-90deg
+ );
+    border-bottom: 2px solid #50E3C2;
+    width: 25px;
+    height: 27px;
+    border-right: 2px solid #50E3C2;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+#crearGif-text{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #572EE5;
+    text-align: center;
+    line-height: 35px;
+    padding: 0 16%;
+
+}
+
+#crearGif-description{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+color: #000000;
+text-align: center;
+line-height: 29px;
+}
+
+#crearGif-description2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    line-height: 29px;
+}
+
+#pelicula-gif{
+    position: absolute;
+    right: 200px;
+    top: 380px;
+}
+
+#paso-a-paso{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+#uno,
+#dos,
+#tres{
+    color: #572EE5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 115px;
+    border: 1px solid #572EE5;
+    margin: 0px 15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#lineaLoca{
+    width: 795px;
+    height: 6.9px;
+    background: #572EE5;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#comenzar{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #572EE5;
+    background-color: white;
+    border-radius: 25px;
+    color: #572EE5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #572EE5;
+    letter-spacing: 0;
+    text-align: center;
+    width: 127px;
+    height: 50px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#comenzar:hover{
+    background-color: #572EE5;
+    color: white;
+}
+
+video{
+    display: none;
+    height: 385px;
+    margin: 0 auto;
+}
+
+#grabar{
+    display: none;
+    margin: 0 auto;
+    border: 1px solid #572EE5;
+    background-color: white;
+    border-radius: 25px;
+    color: #572EE5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #572EE5;
+    letter-spacing: 0;
+    text-align: center;
+    width: 127px;
+    height: 50px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+#grabar:hover{
+    background-color: #572EE5;
+    color: white;
+}
+
+#finalizar{
+    display: none;
+    margin: 0 auto;
+    border: 1px solid #572EE5;
+    background-color: white;
+    border-radius: 25px;
+    color: #572EE5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #572EE5;
+    letter-spacing: 0;
+    text-align: center;
+    width: 127px;
+    height: 50px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#finalizar:hover{
+    background-color: #572EE5;
+    color: white;
+}
+
+#sw-time{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #572EE5;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    position: absolute;
+    right: 400px;
+    top: 420px;
+}
+
+#subir{
+    display: none;
+    margin: 0 auto;
+    border: 1px solid #572EE5;
+    background-color: white;
+    border-radius: 25px;
+    color: #572EE5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #572EE5;
+    letter-spacing: 0;
+    text-align: center;
+    width: 127px;
+    height: 50px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#repetir{
+font-family:'Montserrat', sans-serif;
+font-size: 13px;
+color: #572EE5;
+letter-spacing: 0;
+background-color: white;
+text-align: center;
+border: none;
+position: absolute;
+right: 400px;
+top: 420px;
+border-bottom: 2px solid #50E3C2;
+display: none;
+}
+
+#video-hover{
+    position: absolute;
+    width: 513px;
+    height: 385px;
+    background: #572EE5;
+    top: 1px;
+    opacity: 0;
+    display: none;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+}
+
+#estamos{
+    font-family:'Montserrat', sans-serif;
+font-size: 15px;
+color: #FFFFFF;
+text-align: center;
+margin-top: 10px;
+}
+
+#estamos-container{
+    display: flex;
+    flex-direction: column-reverse
+}
+
+#crearDownload:hover{
+    content: url(../assets/icon-download-hover.svg)
+}
+
+#crearCopy:hover{
+    content: url(../assets/icon-link-hover.svg)
+}
+
+#loader{
+    margin: 0 auto;
+    animation-name: girar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#check{
+    width: 24px;
+    margin: 0 auto;
+}
+
+@keyframes girar{
+
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}

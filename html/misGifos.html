@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GifOS.</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/misGifos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navegator">
+        <a id="logo" href="../index.html"><img src="../assets/logo-desktop.svg" alt="Logo"></a>
+
+        <input type="checkbox" id="menu-checkbox" class="menu-checkbox hidden">
+        <label for="menu-checkbox" class="label">
+            <span class="hamburguesa"></span>
+            <span class="equis">X</span>
+            <span class="menu">
+                <a id="darkTheme" class="menu-item" href="#">Modo Nocturno</a>
+                <a class="menu-item" href="favoritos.html">Favoritos</a>
+                <a class="menu-item" style="color:#9CAFC3" href="misGifos.html">Mis GIFOS</a>
+                <a href="crearGifo.html" id="masButton">+</a>
+            </span>
+
+        </label>
+
+    </div>
+
+    <div id="midCtn" class="mid-container">
+
+
+        <div id="gifos-title">
+            <h1 id="main-title">Mis GIFOS</h1>
+            <img id="gifos-logo" src="../assets/icon-mis-gifos.svg" alt="Icon Mis Gifos">
+        </div>
+
+        
+        <div id="sinGifos">
+
+            <img id="sinGifos-img" src="../assets/icon-mis-gifos-sin-contenido.svg" alt="Favoritos sin contenidos">
+            <h2 id="sinGifos-texto">¡Animate a crear tu propio GIFO!</h2>
+        </div>
+
+        <div id="resultados"></div>
+
+    </div>
+
+
+    <div class="low-container">
+
+        <div id="trending">
+            <h1 id="trendingGifos">Trending GIFOS</h1>
+            <h3 id="miraGIfos">Mira los últimos GIFOS de nuestra comunidad.</h3>
+        </div>
+
+        <div id="gifCtn">
+
+            <button id="left" class="x">
+                &lt;</button> <div id="gif-container">
+
+        </div>
+
+        <button id="right" class="x">></button>
+
+    </div>
+
+    </div>
+
+    <footer>
+
+
+        <div class="share">
+            <h3>Compartir en:</h3>
+
+            <div class="redes">
+                <a href="https://www.facebook.com/pablito.a.correa/"><img id="facebook" src="../assets/icon_facebook.svg" alt="Facebook"></a>
+                <a href="https://twitter.com/"><img id="twitter" src="../assets/icon-twitter.svg" alt="Twitter"></a>
+                <a href="https://www.instagram.com/pablitoo.cr/"><img id="instagram" src="../assets/icon_instagram.svg" alt="Instagram"></a>
+            </div>
+        </div>
+
+
+
+        <p>© GIFOS 2020 All Rights Reserved</p>
+
+    </footer>
+
+    <script src="../js/misGifos.js"></script>
+</body>
+
+</html>

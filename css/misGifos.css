@@ -1,0 +1,37 @@
+#gifos-title{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+#gifos-logo {
+    width: 24px;
+    height: 21.9px;
+}
+
+#main-title{
+    padding: 0;
+}
+
+#sinGifos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 7% 0;
+    padding-bottom: 12%;
+}
+
+#sinGifos #sinGifos-texto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #50E3C2;
+    text-align: center;
+    line-height: 33px;
+    margin-top: 20px;
+}
+
+.misgifos{
+    width: 260px;
+    height: 200px;
+}
